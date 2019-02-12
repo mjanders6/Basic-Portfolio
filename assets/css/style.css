@@ -1,0 +1,9 @@
+#navbar {
+    display: flex;
+  }
+
+#menu {
+    border: 1px solid #fff;  /* For debugging */
+    display: flex;
+    justify-content: flex-end;
+}
