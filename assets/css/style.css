@@ -1,9 +1,15 @@
-#navbar {
-    display: flex;
-  }
 
-#menu {
-    border: 1px solid #fff;  /* For debugging */
-    display: flex;
-    justify-content: flex-end;
-}
+  #grid-layout {
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+    grid-template-rows: 1fr 5fr;
+  }
+  
+  .block1 {
+      background-color: rgb(209, 206, 206);
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr;
+      grid-column: 2 / span 1;
+      grid-row: 2 / span 1;
+    }
