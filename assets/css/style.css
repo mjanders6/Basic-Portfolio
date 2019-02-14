@@ -13,3 +13,24 @@
       grid-column: 2 / span 1;
       grid-row: 2 / span 1;
     }
+  
+  #navbar-name {
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
+    display: inline-block;
+  }
+  
+  #navbar-selection {
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
+    display: inline-block;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  li {
+    float: left;
+    padding: 5px;
+  }
