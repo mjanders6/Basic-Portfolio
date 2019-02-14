@@ -19,7 +19,12 @@
     grid-row: 1 / span 1;
     display: inline-block;
   }
-  
+
+  #navbar-name h1 {
+
+    background-color: aqua;
+  }
+
   #navbar-selection {
     grid-column: 2 / span 1;
     grid-row: 1 / span 1;
@@ -28,6 +33,7 @@
 
   ul {
     list-style-type: none;
+    padding: 0px;
   }
 
   li {
