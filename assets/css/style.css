@@ -20,23 +20,23 @@
     display: inline-block;
   }
 
-  #navbar-name h1 {
-
-    background-color: aqua;
-  }
-
+  /* styles for the navbar selection items */
   #navbar-selection {
     grid-column: 2 / span 1;
     grid-row: 1 / span 1;
+
+    display: inline-block;
+    justify-self: end;
+  }
+
+  #navbar-div1 {
     display: inline-block;
   }
 
-  ul {
-    list-style-type: none;
-    padding: 0px;
+  #navbar-div2 {
+    display: inline-block;
   }
 
-  li {
-    float: left;
-    padding: 5px;
+  #navbar-div3 {
+    display: inline-block;
   }
