@@ -18,25 +18,32 @@
     grid-column: 2 / span 1;
     grid-row: 1 / span 1;
     display: inline-block;
+    justify-self: left;
+    margin-top: 10px;
   }
 
   /* styles for the navbar selection items */
   #navbar-selection {
     grid-column: 2 / span 1;
     grid-row: 1 / span 1;
-
     display: inline-block;
     justify-self: end;
+    margin-top: 10px;
   }
 
   #navbar-div1 {
     display: inline-block;
+    padding-right: 5px;
+    border-right: 1px solid;
   }
 
   #navbar-div2 {
     display: inline-block;
+    padding-right: 5px;
+    border-right: 1px solid;
   }
 
   #navbar-div3 {
     display: inline-block;
+    padding-right: 5px;
   }
