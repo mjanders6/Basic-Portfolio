@@ -11,8 +11,30 @@ body {
   grid-template-rows: 1fr 8fr;
 }
 
+h1 {
+  height: 50px;
+  width: auto;
+  font-size: 40px;
+  color: #4aaaa5;
+  padding: 5px 15px 0px 15px;
+  border-bottom: 1px solid grey;
+}
+
+p {
+  font-size: 20px;
+}
+
 li {
   display: inline;
+}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+  float: left;
+  margin-right: 10px;
 }
 
 header {
@@ -33,7 +55,8 @@ section {
   grid-row: 2 / span 1;
   align-items: center;
   text-align: left;
-
+  margin-top: 20px;
+  background-color: white;
 }
 
 #nav-position {
@@ -43,16 +66,19 @@ section {
 #nav-header {
   height: 50px;
   width: auto;
+  font-size: 40px;
+  color: white;
   background-color: #4aaaa5;
   float: left;
   text-align: left;
   /* vertical-align: middle; */
-  padding: 5px 5px;
+  padding: 5px 15px 0px 15px;
   
 }
 
 .nav-selection {
   display: inline-block;
-  /* vertical-align: middle; */
-  padding: 5px 5px;
+  vertical-align: middle;
+  padding: 15px 5px 0px 0px;
+  font-size: 15px;
 }
