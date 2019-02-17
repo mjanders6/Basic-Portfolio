@@ -31,6 +31,7 @@ li {
   display: inline;
 }
 
+/* image for the about page */
 .img-about {
   padding: 5px;
   width: 150px;
@@ -125,7 +126,7 @@ form {
 }
 
 /* portfolio pictures */
-
+/* i was not able to get the label over the pictures. My though would be to create a div and some how place that over the picture.  */
 .pic-grid {
   size: 100%;
   display: grid;
